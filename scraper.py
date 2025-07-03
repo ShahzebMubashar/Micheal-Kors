@@ -95,15 +95,23 @@ async def scrape_michael_kors():
         for item in items:
             try:
                 tile_body = await item.query_selector('.tile-body')
-                name_el = await tile_body.query_selector('a.link.back-to-product-anchor-js') if tile_body else None
-                price_el = await tile_body.query_selector('.value') if tile_body else None
-                link = await name_el.get_attribute("href") if name_el else ""
+                # Get all name elements
+                name_els = await tile_body.query_selector_all('a.link.back-to-product-anchor-js') if tile_body else []
+                name = ""
+                link = ""
+                for name_el in name_els:
+                    text = (await name_el.inner_text()).strip()
+                    # Check if the text is not all uppercase
+                    if any(c.islower() for c in text):
+                        name = text
+                        link = await name_el.get_attribute("href")
+                        break
 
-                name = (await name_el.inner_text()) if name_el else ""
+                price_el = await tile_body.query_selector('.value') if tile_body else None
                 price = (await price_el.inner_text()) if price_el else ""
 
                 results.append({
-                    "name": name.strip(),
+                    "name": name,
                     "price": price.strip(),
                     "product_url": f"https://www.michaelkors.com{link}" if link else ""
                 })
@@ -115,7 +123,6 @@ async def scrape_michael_kors():
             json.dump(results, f, ensure_ascii=False, indent=2)
 
         print(f"Saved {len(results)} items to handbags.json.")
-        await page.screenshot(path="debug.png", full_page=True)
         await browser.close()
 
 
