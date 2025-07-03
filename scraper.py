@@ -2,18 +2,9 @@ import asyncio
 import json
 from playwright.async_api import async_playwright
 
-from crawl4ai import AsyncWebCrawler
+
 from dotenv import load_dotenv
 
-from config import BASE_URL, CSS_SELECTOR, REQUIRED_KEYS
-from utils.data_utils import (
-    save_venues_to_csv,
-)
-from utils.scraper_utils import (
-    fetch_and_process_page,
-    get_browser_config,
-    get_llm_strategy,
-)
 
 load_dotenv()
 
@@ -200,49 +191,6 @@ async def scrape_handbag_details():
         json.dump(results, f, ensure_ascii=False, indent=2)
     print(f"Saved {len(results)} detailed items to handbags_detailed.json.")
 
-
-async def crawl_venues():
-    browser_config = get_browser_config()
-    llm_strategy = get_llm_strategy()
-    session_id = "venue_crawl_session"
-
-    page_number = 2
-    all_venues = []
-    seen_names = set()
-
-    async with AsyncWebCrawler(config=browser_config) as crawler:
-        while True:
-            venues, no_results_found = await fetch_and_process_page(
-                crawler,
-                page_number,
-                BASE_URL,
-                CSS_SELECTOR,
-                llm_strategy,
-                session_id,
-                REQUIRED_KEYS,
-                seen_names,
-            )
-
-            if no_results_found:
-                print("No more venues found. Ending crawl.")
-                break
-
-            if not venues:
-                print(f"No venues extracted from page {page_number}.")
-                break
-
-            all_venues.extend(venues)
-            page_number += 1
-
-            await asyncio.sleep(2)
-
-    if all_venues:
-        save_venues_to_csv(all_venues, "complete_venues.csv")
-        print(f"Saved {len(all_venues)} venues to 'complete_venues.csv'.")
-    else:
-        print("No venues were found during the crawl.")
-
-    llm_strategy.show_usage()
 
 
 async def main():

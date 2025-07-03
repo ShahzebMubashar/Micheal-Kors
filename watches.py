@@ -2,12 +2,12 @@ import asyncio
 import json
 from playwright.async_api import async_playwright
 
-from crawl4ai import AsyncWebCrawler
 from dotenv import load_dotenv
+
 
 load_dotenv()
 
-URL = "https://www.michaelkors.com/women/shoes/"
+URL = "https://www.michaelkors.com/women/watches/"
 
 
 async def scrape_michael_kors():
@@ -36,7 +36,7 @@ async def scrape_michael_kors():
 
         # Ensure you are on the correct URL
         await page.goto(URL)
-        print("Navigated to Shoes page.")
+        print("Navigated to watches page.")
 
         # Wait for product cards to load
         await page.wait_for_selector('div.col-6.col-md-3.product-tile-wrapper')
@@ -109,10 +109,10 @@ async def scrape_michael_kors():
                 print("Error extracting item:", e)
 
         # Save to JSON
-        with open("shoes.json", "w", encoding="utf-8") as f:
+        with open("watches.json", "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-        print(f"Saved {len(results)} items to shoes.json.")
+        print(f"Saved {len(results)} items to watches.json.")
         await browser.close()
 
 
