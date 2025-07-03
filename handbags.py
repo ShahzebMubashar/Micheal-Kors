@@ -2,13 +2,11 @@ import asyncio
 import json
 from playwright.async_api import async_playwright
 
-from crawl4ai import AsyncWebCrawler
 from dotenv import load_dotenv
 
 load_dotenv()
 
-URL = "https://www.michaelkors.com/women/shoes/"
-
+URL = "https://www.michaelkors.com/women/handbags/"
 
 async def scrape_michael_kors():
     async with async_playwright() as p:
@@ -36,7 +34,7 @@ async def scrape_michael_kors():
 
         # Ensure you are on the correct URL
         await page.goto(URL)
-        print("Navigated to Shoes page.")
+        print("Navigated to Handbags page.")
 
         # Wait for product cards to load
         await page.wait_for_selector('div.col-6.col-md-3.product-tile-wrapper')
@@ -109,16 +107,91 @@ async def scrape_michael_kors():
                 print("Error extracting item:", e)
 
         # Save to JSON
-        with open("shoes.json", "w", encoding="utf-8") as f:
+        with open("handbags.json", "w", encoding="utf-8") as f:
             json.dump(results, f, ensure_ascii=False, indent=2)
 
-        print(f"Saved {len(results)} items to shoes.json.")
+        print(f"Saved {len(results)} items to handbags.json.")
         await browser.close()
 
+# --- Commented out detailed info scraping ---
+# async def scrape_handbag_details():
+#     # Load URLs from handbags.json
+#     with open("handbags.json", "r", encoding="utf-8") as f:
+#         products = json.load(f)
+#
+#     results = []
+#     async with async_playwright() as p:
+#         browser = await p.firefox.launch(headless=True)
+#         context = await browser.new_context(
+#             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
+#             extra_http_headers={
+#                 "Accept-Language": "en-US,en;q=0.9",
+#                 "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8"
+#             }
+#         )
+#         page = await context.new_page()
+#
+#         for idx, product in enumerate(products):
+#             url = product.get("product_url")
+#             if not url:
+#                 continue
+#             print(f"[{idx+1}/{len(products)}] Scraping: {url}")
+#             try:
+#                 await page.goto(url, timeout=60000)
+#                 # Handle cookie/region popups if present
+#                 try:
+#                     accept_btn = await page.wait_for_selector('button:has-text("Accept All")', timeout=5000)
+#                     await accept_btn.click()
+#                     print("Accepted cookies on product page.")
+#                     await asyncio.sleep(1)
+#                 except Exception:
+#                     pass
+#
+#                 # Take a debug screenshot before extracting data
+#                 await page.screenshot(path=f"debug_product_{idx+1}.png", full_page=True)
+#
+#                 # Wait for product name to appear
+#                 await page.wait_for_selector('.product-name.overflow-hidden', timeout=15000)
+#                 name = await page.locator('.product-name.overflow-hidden').inner_text()
+#                 price = await page.locator('.value').first.inner_text()
+#                 img_el = await page.query_selector('img.zoom-image.d-block.img-fluid.mouseFocusUnActive')
+#                 image_url = await img_el.get_attribute('src') if img_el else ""
+#                 # Click the Product Details button
+#                 try:
+#                     details_btn = await page.query_selector('button.product-details--js')
+#                     if details_btn:
+#                         await details_btn.click()
+#                         await asyncio.sleep(1)
+#                 except Exception:
+#                     pass
+#                 desc = ""
+#                 try:
+#                     desc_el = await page.query_selector('.product-details-tabs__item p')
+#                     desc = await desc_el.inner_text() if desc_el else ""
+#                 except Exception:
+#                     pass
+#
+#                 results.append({
+#                     "name": name.strip(),
+#                     "price": price.strip(),
+#                     "image_url": image_url,
+#                     "description": desc.strip(),
+#                     "product_url": url
+#                 })
+#             except Exception as e:
+#                 print(f"Error scraping {url}: {e}")
+#
+#         await browser.close()
+#
+#     # Save results
+#     with open("handbags_detailed.json", "w", encoding="utf-8") as f:
+#         json.dump(results, f, ensure_ascii=False, indent=2)
+#     print(f"Saved {len(results)} detailed items to handbags_detailed.json.")
 
 async def main():
     await scrape_michael_kors()
-
+    # await scrape_handbag_details()
+    # await crawl_venues()  # Optional if you want to run venue crawling
 
 if __name__ == "__main__":
     asyncio.run(main())
