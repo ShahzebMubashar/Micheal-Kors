@@ -1,0 +1,422 @@
+[
+  {
+    "name": "Michael Kors",
+    "price": "$225",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-collar-necklace/MKJ8465.html?astc=true&dwvar_MKJ8465_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-cuff/MKJ8466.html?astc=true&dwvar_MKJ8466_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$175",
+    "product_url": "https://www.michaelkors.com/large-precious-metal-plated-brass-double-hoop-earrings/MKJ842100.html?astc=true&dwvar_MKJ842100_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-snake-chain-bracelet/MKJ8487.html?astc=true&dwvar_MKJ8487_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-tennis-necklace/MKJ8469.html?astc=true&dwvar_MKJ8469_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-tennis-bracelet/MKJ8470.html?astc=true&dwvar_MKJ8470_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-tennis-ring/MKJ8471.html?astc=true&dwvar_MKJ8471_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-huggie-hoop-earrings/MKJ8478.html?astc=true&dwvar_MKJ8478_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$125",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-bezel-necklace/MKC1769.html?astc=true&dwvar_MKC1769_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$125",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-bezel-drop-earrings/MKC1773.html?astc=true&dwvar_MKC1773_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-bezel-slider-bracelet/MKC1770.html?astc=true&dwvar_MKC1770_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$225",
+    "product_url": "https://www.michaelkors.com/darrington-pave-silver-tone-ring-watch/MK4884.html?astc=true&dwvar_MK4884_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$200",
+    "product_url": "https://www.michaelkors.com/darrington-gold-tone-ring-watch/MK4883.html?astc=true&dwvar_MK4883_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-snake-chain-necklace/MKJ8486.html?astc=true&dwvar_MKJ8486_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-signet-ring/MKJ8482.html?astc=true&dwvar_MKJ8482_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-stud-earrings/MKC1405AN.html?astc=true&dwvar_MKC1405AN_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-pave-halo-stud-earrings/MKC1724CZ.html?astc=true&dwvar_MKC1724CZ_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$395",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-link-necklace/MKJ8456.html?astc=true&dwvar_MKJ8456_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-link-hoop-earrings/MKJ8459.html?astc=true&dwvar_MKJ8459_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-chain-cuff/MKJ8457.html?astc=true&dwvar_MKJ8457_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-heart-necklace-and-earrings-gift-set/MKC1768CZSET.html?astc=true&dwvar_MKC1768CZSET_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-cubic-zirconia-necklace/MKC1714CZ.html?astc=true&dwvar_MKC1714CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-logo-necklace/MKC1780.html?astc=true&dwvar_MKC1780_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-logo-bracelet/MKC1781.html?astc=true&dwvar_MKC1781_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$200",
+    "product_url": "https://www.michaelkors.com/darrington-gold-tone-ring-watch/MK4883.html?astc=true&dwvar_MK4883_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-snake-chain-necklace/MKJ8486.html?astc=true&dwvar_MKJ8486_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-cubic-zirconia-signet-ring/MKJ8482.html?astc=true&dwvar_MKJ8482_color=1715"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-stud-earrings/MKC1405AN.html?astc=true&dwvar_MKC1405AN_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-pave-halo-stud-earrings/MKC1724CZ.html?astc=true&dwvar_MKC1724CZ_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$395",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-link-necklace/MKJ8456.html?astc=true&dwvar_MKJ8456_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-link-hoop-earrings/MKJ8459.html?astc=true&dwvar_MKJ8459_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-curb-chain-cuff/MKJ8457.html?astc=true&dwvar_MKJ8457_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-heart-necklace-and-earrings-gift-set/MKC1768CZSET.html?astc=true&dwvar_MKC1768CZSET_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-cubic-zirconia-necklace/MKC1714CZ.html?astc=true&dwvar_MKC1714CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-logo-necklace/MKC1780.html?astc=true&dwvar_MKC1780_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-logo-bracelet/MKC1781.html?astc=true&dwvar_MKC1781_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$115",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-cubic-zirconia-bracelet/MKC1716CZ.html?astc=true&dwvar_MKC1716CZ_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-heart-chain-lariat-necklace/MKC1776.html?astc=true&dwvar_MKC1776_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-heart-bracelet/MKC1778.html?astc=true&dwvar_MKC1778_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$125",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-heart-pendant-necklace/MKC1777.html?astc=true&dwvar_MKC1777_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$85",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-heart-stud-earrings/MKC1779.html?astc=true&dwvar_MKC1779_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$85",
+    "product_url": "https://www.michaelkors.com/fulton-precious-metal-plated-sterling-silver-slider-bracelet/MKC1762CZ.html?astc=true&dwvar_MKC1762CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$75",
+    "product_url": "https://www.michaelkors.com/fulton-precious-metal-plated-sterling-silver-pave-logo-charm-stud-earrings/MKC1727CZ.html?astc=true&dwvar_MKC1727CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$115",
+    "product_url": "https://www.michaelkors.com/fulton-precious-metal-plated-sterling-silver-pave-logo-charm-necklace/MKC1726CZ.html?astc=true&dwvar_MKC1726CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/large-precious-metal-plated-brass-bubble-cuff/MKJ841900.html?astc=true&dwvar_MKJ841900_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-double-wrap-tennis-bracelet/MKJ8417CG.html?astc=true&dwvar_MKJ8417CG_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-pave-sterling-silver-bangle/MKC1751CZ.html?astc=true&dwvar_MKC1751CZ_color=0991"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-pave-hoop-earrings/MKJ8071.html?astc=true&dwvar_MKJ8071_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-double-layered-necklace/MKC1745CZ.html?astc=true&dwvar_MKC1745CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/astor-link-precious-metal-plated-brass-bracelet/MKJ835700.html?astc=true&dwvar_MKJ835700_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-pave-heart-necklace/MKJ8434CZ.html?astc=true&dwvar_MKJ8434CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$175",
+    "product_url": "https://www.michaelkors.com/astor-link-medium-precious-metal-plated-brass-hoop-earrings/MKJ835871.html?astc=true&dwvar_MKJ835871_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/astor-link-large-precious-metal-plated-brass-necklace/MKJ835500.html?astc=true&dwvar_MKJ835500_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-3-piece-pave-gift-set/MKJ8451CZSET.html?astc=true&dwvar_MKJ8451CZSET_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$250",
+    "product_url": "https://www.michaelkors.com/mini-astor-link-silver-tone-bracelet-watch/MK4872.html?astc=true&dwvar_MK4872_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-pave-chain-drop-earrings/MKJ8280CZ.html?astc=true&dwvar_MKJ8280CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$225",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-pave-hoop-earrings/MKC1752CZ.html?astc=true&dwvar_MKC1752CZ_color=0991"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$395",
+    "product_url": "https://www.michaelkors.com/petite-emery-gold-tone-watch-and-jewelry-gift-set/MK4837SET.html?astc=true&dwvar_MK4837SET_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$175",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-heart-necklace/MKJ838300.html?astc=true&dwvar_MKJ838300_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/astor-link-medium-precious-metal-plated-brass-necklace/MKJ840900.html?astc=true&dwvar_MKJ840900_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$125",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-and-pave-stud-earrings/MKC1754CZ.html?astc=true&dwvar_MKC1754CZ_color=0991"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$325",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-curb-link-bracelet/MKC1427AN.html?astc=true&dwvar_MKC1427AN_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-pave-curb-link-ring/MKC1429AN.html?astc=true&dwvar_MKC1429AN_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-heart-stud-earrings/MKJ838400.html?astc=true&dwvar_MKJ838400_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$395",
+    "product_url": "https://www.michaelkors.com/petite-emery-silver-tone-watch-and-jewelry-gift-set/MK4839SET.html?astc=true&dwvar_MK4839SET_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$74.99",
+    "product_url": "https://www.michaelkors.com/oversized-precious-metal-plated-brass-curb-link-cuff/MKJ836000.html?astc=true&dwvar_MKJ836000_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$325",
+    "product_url": "https://www.michaelkors.com/lexington-pave-two-tone-watch-and-slider-bracelet-gift-set/MK4817SET.html?astc=true&dwvar_MK4817SET_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-double-wrap-tennis-bracelet/MKJ8359CZ.html?astc=true&dwvar_MKJ8359CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$395",
+    "product_url": "https://www.michaelkors.com/petite-emery-rose-gold-tone-watch-and-jewelry-gift-set/MK4838SET.html?astc=true&dwvar_MK4838SET_color=0622"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$125",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-sterling-silver-and-pave-ring/MKC1755CZ.html?astc=true&dwvar_MKC1755CZ_color=0991"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/astor-link-medium-pave-precious-metal-plated-brass-necklace/MKJ8405CZ.html?astc=true&dwvar_MKJ8405CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$135",
+    "product_url": "https://www.michaelkors.com/large-precious-metal-plated-brass-chain-link-necklace/MKJ841800.html?astc=true&dwvar_MKJ841800_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/pave-precious-metal-plated-sterling-silver-bracelet/MKC1715CZ.html?astc=true&dwvar_MKC1715CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$175",
+    "product_url": "https://www.michaelkors.com/astor-link-precious-metal-plated-sterling-silver-drop-earrings/MKC171000.html?astc=true&dwvar_MKC171000_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$195",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-pave-stud-earrings/MKJ8435CZ.html?astc=true&dwvar_MKJ8435CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$95",
+    "product_url": "https://www.michaelkors.com/large-precious-metal-plated-brass-pebble-earrings/MKJ842000.html?astc=true&dwvar_MKJ842000_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$295",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-3-piece-pave-gift-set/MKJ8452CZSET.html?astc=true&dwvar_MKJ8452CZSET_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$115",
+    "product_url": "https://www.michaelkors.com/small-precious-metal-plated-brass-hoop-earrings/MKJ842200.html?astc=true&dwvar_MKJ842200_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$225",
+    "product_url": "https://www.michaelkors.com/pave-precious-metal-plated-sterling-silver-necklace/MKC1713CZ.html?astc=true&dwvar_MKC1713CZ_color=0040"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-baguette-drop-earrings/MKJ8416CZ.html?astc=true&dwvar_MKJ8416CZ_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-and-acetate-pave-empire-logo-necklace/MKJ8274MP.html?astc=true&dwvar_MKJ8274MP_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$225",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-cuff/MKJ830900.html?astc=true&dwvar_MKJ830900_color=0710"
+  },
+  {
+    "name": "Michael Kors",
+    "price": "$150",
+    "product_url": "https://www.michaelkors.com/precious-metal-plated-brass-pave-hoop-earrings/MKJ8070.html?astc=true&dwvar_MKJ8070_color=0710"
+  },
+  {
+    "name": "",
+    "price": "",
+    "product_url": ""
+  }
+]
