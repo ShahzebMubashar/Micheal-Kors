@@ -133,7 +133,7 @@ async def scrape_handbag_details():
 
     results = []
     async with async_playwright() as p:
-        browser = await p.firefox.launch(headless=True)  # Changed back to Firefox
+        browser = await p.firefox.launch(headless=True)
         context = await browser.new_context(
             user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0",
             extra_http_headers={
